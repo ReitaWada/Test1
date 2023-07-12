@@ -9,10 +9,17 @@ with zipfile.ZipFile('kabeposter.zip', 'r') as zfile:
                 people_data = data["people"]
                 data1 = people_data[0]
                 data2 = people_data[1]
-                print(data1["pose_keypoints_2d"][0])
+                print(data1["pose_keypoints_2d"][0])#鼻
                 print(data1["pose_keypoints_2d"][1])
                 print(data1["pose_keypoints_2d"][2])
+                print(data1["pose_keypoints_2d"][3])#首
+                print(data1["pose_keypoints_2d"][4])
+                print(data1["pose_keypoints_2d"][5])
+                
                 
                 print(data2["pose_keypoints_2d"][0])
                 print(data2["pose_keypoints_2d"][1])
                 print(data2["pose_keypoints_2d"][2])
+                print(data2["pose_keypoints_2d"][3])
+                print(data2["pose_keypoints_2d"][4])
+                print(data2["pose_keypoints_2d"][5])
