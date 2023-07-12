@@ -15,3 +15,13 @@ with zipfile.ZipFile('kabeposter.zip', 'r') as zfile:
                 people_data = data["people"]
                 data1 = people_data[0]
                 data2 = people_data[1]
+                
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
+                
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
+                data1["pose_keypoints_2d"][0]
